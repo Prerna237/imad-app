@@ -1,0 +1,1 @@
+madiId=document.getElementById('madi');
