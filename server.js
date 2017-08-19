@@ -16,7 +16,7 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 app.get('/article1',function(req,res){
-    res.send('This is a log response to article1')
+    res.sendFile(article1.html)
 });
 
 app.get('/article2',function(req,res){
